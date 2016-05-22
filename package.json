@@ -1,0 +1,24 @@
+{
+  "name": "portfolio_updated",
+  "version": "1.0.0",
+  "description": "portfolio ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amritakc/updated_portfolio.git"
+  },
+  "author": "amrita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amritakc/updated_portfolio/issues"
+  },
+  "homepage": "https://github.com/amritakc/updated_portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.19"
+  }
+}
