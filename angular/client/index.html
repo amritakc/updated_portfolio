@@ -1,11 +1,20 @@
 <!DOCTYPE HTML>
-<html>
+<html ng-app = "myApp">
 	<head>
 		<title>Amrita Chawla</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href='https://fonts.googleapis.com/css?family=Bilbo' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-route.min.js"></script>
+
+	     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    	<script>
+    	var myAppDB = angular.module('myApp', ['ngRoute']);
+    	</script>
 	</head>
 	<body id="top">
 
@@ -92,8 +101,10 @@
 							<div class="8u 12u$(small)">
 								<ul class="labeled-icons">
 									<li>
-										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-										<a href="#">amritakc@gmail.com</a>
+										<h3 class="icon fa-envelope"><span class="label">Email</span></h3>
+										<br />
+										amritakc@gmail.com
+										
 									</li>
 									<li>
 										<h3 class="icon fa-home"><span class="label">Address</span></h3>
